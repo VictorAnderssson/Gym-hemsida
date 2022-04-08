@@ -4,10 +4,8 @@ body {
 }
 
 .logo{
-  width: 90px;
   height: 45px;
   border-radius: 10px; 
-  margin-left: -100px;
 }
 
 p{
@@ -16,20 +14,17 @@ p{
 }
 
 .topnav {   
-  border: 1px solid;
   padding: 10px;
   box-shadow: 0px 10px 8px #888888;
   background-color: #333;
   display: flex;
-  justify-content: space-evenly;
-  align-items: center;
-  margin-bottom: 30px;
+  justify-content: space-around;
+  margin-bottom: 10px;
 }
 
 .topnav a {
-  float: left;
   color: #f2f2f2;
-  padding: 16px;
+  padding: 5px;
   text-decoration: none;
   font-size: 20px;
 }
@@ -50,15 +45,12 @@ p{
   margin-right: auto;
   margin-bottom: 30px;
   width: 50%; 
-
 }
 
 .omsats{
   display: flex;
   justify-content: space-evenly;
 }
-
-
 
 h2{
   font-family: 'Noto Serif', serif;
@@ -75,26 +67,15 @@ h1:after {
 }
 h1:hover:after { transform: scaleX(1); }
 
-footer {
-  width: 50%;
-  font-size: 20px;
-  height: 100px;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-
-  
-}
-
 .media {
-  border: solid black;
-  background-color: white;
-  display: flex;
-  flex: 100%;
-  flex-wrap: wrap;
+  background-color:#333;
+  color: #f2f2f2;
+  padding: 30px;
+  font-size: 20px; 
   list-style: none;
-  justify-content: space-around;
-  text-decoration: none;  
+  display: flex;
+  justify-content: space-evenly;
+  margin-bottom: 0px;
 }
 
 * {
