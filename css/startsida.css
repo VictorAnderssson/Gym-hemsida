@@ -1,10 +1,5 @@
 @import "style.css";
 
-body {
-  margin: 0px;
-  font-family: Arial, Helvetica, sans-serif;
-}
-
 p{
   text-align: center;
   width:50vw;
@@ -54,5 +49,5 @@ h2{
 .container{
   display: grid;
   grid-template-columns: 1fr 1fr 1fr ;
-  grid-template-rows: 300px;
+  grid-template-rows: 220px;
 }
